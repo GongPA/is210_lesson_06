@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-""" 
+"""
     task_01.py
-    Even and Odds() 
+    Even and Odds()
 """
 
 
