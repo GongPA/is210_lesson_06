@@ -41,8 +41,8 @@ def test_passwords(pw_list):#don't forget close line by ':'
 
     for i in range(len(pw_list)):
         password == crack_it((pw_list.split(":")[1]))
-            if password:
-                pw_cracked.append(password, (pw_list.split(":")[4]))
+        if password:
+            pw_cracked.append(password, (pw_list.split(":")[4]))
     return pw_cracked
 
 
