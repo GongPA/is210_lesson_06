@@ -35,7 +35,7 @@ def crack_it(in_str):
     """ -*- """
     for pwd in data.WORDS:
         if data.crypt(pwd, SALT) == in_str:
-        return pwd
+            return pwd
 
      
 def test_passwords(pwd):
