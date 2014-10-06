@@ -25,6 +25,6 @@ def evens_and_odds(numbers, show_even=True):
     elif not show_even:
        for i in numbers:
           if i % 2 != 0:
-              istout.append(i)
+              listout.append(i)
 
     return listout
