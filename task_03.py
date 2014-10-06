@@ -10,12 +10,12 @@
 def bubble_sort(input_list):
     '''bubble sort function'''
     
-    done = False
+    done = None
     while not done:
-        done = True
+        done = False
         for i in range(0, len(input_list) - 1):
             if input_list[i] > input_list[i + 1]:
-                done = False
+                done = True
                 temp = input_list[i]
                 input_list[i + 1] = input_list[i]
                 input_list[i] = temp
