@@ -31,7 +31,7 @@ def bubble_sort(input_list):
 
     done = False
     while not done:
-    done = True
+        done = True
         for i in range(len(input_list) - 1):
             if input_list[i] > input_list[i + 1]:
                 done = False
