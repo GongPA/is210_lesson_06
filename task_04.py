@@ -32,7 +32,7 @@ SALT = "monosodium-glutamate"#left 2 blanks line before your function name
 
 def crack_it(in_str):
     for pw in data.WORDS:
-     if data.crypt(pw, SALT) == in_str
+     if data.crypt(pw, SALT) == in_str:
          return pw
 
         
