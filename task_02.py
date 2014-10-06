@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-""" 
+"""
   Task_02.py
   Average of a list
 """
@@ -33,10 +33,9 @@ EVEN_REPO = '{0:,.2f}'.format(EVEN_AVG)
 ODD_REPO = '{0:,.2f}'.format(ODD_AVG)
 
 REPORT = ('Report for: Task 02'
-          '\n{0}
+          '\n{0}'
           '\n\tTotal AVG:      {1:>10}'
           '\n\tEven AVG:       {2:>10}'
           '\n\tOdd AVG: {3:>10}'
-          ).format('-' * 30,TOT_REPO,EVEN_REPO,ODD_REPO)
+          ).format('-' * 30, TOT_REPO, EVEN_REPO, ODD_REPO)
 print REPORT
-
