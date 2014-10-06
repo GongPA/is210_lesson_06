@@ -39,3 +39,4 @@ REPORT = ('Report for: Task 02'
           '\n\tOdd AVG: {3:>10}'
           ).format('-' * 30, TOT_REPO, EVEN_REPO, ODD_REPO)
 print REPORT
+

@@ -22,21 +22,23 @@
     or indexing (or even by attribute in the case of namedtuples).
     Lists are mutable, and their elements are usually homogeneous and are
     accessed by iterating over the list.
-    
+
 """
 
 import data
 
-SALT = "monosodium-glutamate"#left 2 blanks line before your function name
+SALT = "monosodium-glutamate"  #left 2 blanks line before your function name
 
 
 def crack_it(in_str):
+    """ -*- """
     for pw in data.WORDS:
      if data.crypt(pw, SALT) == in_str:
          return pw
 
-        
-def test_passwords(pw):#don't forget close line by ':'
+     
+def test_passwords(pw):  #don't forget close line by ':'
+    """ """
     pw_cracked = []
 
     for line in pw:
@@ -49,6 +51,7 @@ def test_passwords(pw):#don't forget close line by ':'
 
 
 def report(out_tuple):
+    """ """
     print '\nCracked Passwords\n'
     print '-' * 40
 
