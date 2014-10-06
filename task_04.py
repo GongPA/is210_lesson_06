@@ -31,13 +31,13 @@ SALT = "monosodium-glutamate"#left 2 blanks line before your function name
 
 
 def crack_it(in_str):
-    for pw in data.WORDS
+    for pw in data.WORDS:
      if data.crypt(pw, SALT) == in_str
          return pw
 
         
 def test_passwords(pw_list):#don't forget close line by ':'
-    pw_cracked = None
+    pw_cracked = []
 
     for i in range(len(pw_list)):
         password == crack_it((pw_list.split(":")[1]))
