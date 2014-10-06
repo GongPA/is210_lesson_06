@@ -6,6 +6,7 @@
     Bubble Sort
 """
 
+import data
 
 def bubble_sort(input_list):
     '''bubble sort function'''
@@ -23,3 +24,5 @@ def bubble_sort(input_list):
         here also can using a temp for swipe list position
         """
     return input_list
+
+print bubble_sort(data.TASK_O1)

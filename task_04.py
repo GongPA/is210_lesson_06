@@ -36,12 +36,15 @@ def crack_it(in_str):
          return pw
 
         
-def test_passwords(pw_list):#don't forget close line by ':'
+def test_passwords(pw):#don't forget close line by ':'
     pw_cracked = []
 
-    for i in range(0,len(pw_list)):
-        if password = crack_it((pw_list.split(":")[1])):
-            pw_cracked.append(password, (pw_list.split(":")[4]))
+    for line in pw:
+        fields = line.split(":")
+        password = crack_it(fields[1])
+
+        if password:
+            pw_cracked.append((password, fields[4]))
     return pw_cracked
 
 
@@ -50,7 +53,7 @@ def report(out_tuple):
     print '-' * 40
 
     for i in out_tuple:
-        print '{0:<20}{1<20}'.format(i[0], i[1])
+        print '{0:<20}{1:<20}'.format(i[0], i[1])
 
 
 report(test_passwords(data.PASSWD))
