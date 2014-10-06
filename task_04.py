@@ -39,7 +39,7 @@ def crack_it(in_str):
 def test_passwords(pw_list):#don't forget close line by ':'
     pw_cracked = []
 
-    for i in range(len(pw_list)):
+    for i in range(0,len(pw_list)):
         if password == crack_it((pw_list.split(":")[1])):
             pw_cracked.append(password, (pw_list.split(":")[4]))
     return pw_cracked
