@@ -37,11 +37,11 @@ def crack_it(in_str):
          return pw
 
      
-def test_passwords(pw):  #don't forget close line by ':'
+def test_passwords(pwd):  #don't forget close line by ':'
     """ """
     pw_cracked = []
 
-    for line in pw:
+    for line in pwd:
         fields = line.split(":")
         password = crack_it(fields[1])
 
