@@ -27,18 +27,20 @@
 
 import data
 
-SALT = "monosodium-glutamate"  #left 2 blanks line before your function name
+SALT = "monosodium-glutamate"
+    # left 2 blanks line before your function name
 
 
 def crack_it(in_str):
     """ -*- """
-    for pw in data.WORDS:
-     if data.crypt(pw, SALT) == in_str:
-         return pw
+    for pwd in data.WORDS:
+        if data.crypt(pwd, SALT) == in_str:
+        return pwd
 
      
-def test_passwords(pwd):  #don't forget close line by ':'
-    """ """
+def test_passwords(pwd):
+    # don't forget close line by ':'
+    """ -*- """
     pw_cracked = []
 
     for line in pwd:
@@ -51,7 +53,7 @@ def test_passwords(pwd):  #don't forget close line by ':'
 
 
 def report(out_tuple):
-    """ """
+    """ -*- """
     print '\nCracked Passwords\n'
     print '-' * 40
 

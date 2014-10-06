@@ -36,7 +36,6 @@ REPORT = ('Report for: Task 02'
           '\n{0}'
           '\n\tTotal AVG:      {1:>10}'
           '\n\tEven AVG:       {2:>10}'
-          '\n\tOdd AVG: {3:>10}'
-          ).format('-' * 30, TOT_REPO, EVEN_REPO, ODD_REPO)
+          '\n\tOdd AVG: {3:>10}').format('-' * 30, TOT_REPO,
+                                         EVEN_REPO, ODD_REPO)
 print REPORT
-

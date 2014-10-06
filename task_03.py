@@ -21,7 +21,7 @@ def bubble_sort(input_list):
                 temp = input_list[i]
                 input_list[i + 1] = input_list[i]
                 input_list[i] = temp
-                return input_list
+        return input_list
             # i was using without temp. That working too.
             # this time i use temp to swip those values
 

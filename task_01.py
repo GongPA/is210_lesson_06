@@ -7,7 +7,6 @@
 """
 
 
-
 def evens_and_odds(numbers, show_even=True):
     """
         accepts numbers as list object
