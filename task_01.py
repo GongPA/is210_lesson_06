@@ -25,8 +25,5 @@ elif not show_even:
     for i in numbers:
         if i % 2 != 0:
             listout.append(i)
-    else:
-        print None
-        return None
 
 return listout
